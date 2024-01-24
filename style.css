@@ -1,0 +1,34 @@
+/* .bg-img1{
+    background-color: #000;
+    background-size: cover;
+    background-image: url("./Images/chair-1.jpg");
+}
+.bg-img2{
+    background-color: #000;
+    background-size: cover;
+    background-image: url("./Images/chair-2.jpg");
+}
+.bg-img3{
+    background-color: #000;
+    background-size: cover;
+    background-image: url("./Images/chair-3.jpg");
+} */
+.carousel-item {
+    background-color: #000;
+    background-size: cover;
+    height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.carousel-item:nth-child(1) {
+    background-image: url('./Images/chair-1.jpg');
+}
+
+.carousel-item:nth-child(2) {
+    background-image: url('./Images/chair-2.jpg');
+}
+
+.carousel-item:nth-child(3) {
+    background-image: url('./Images/chair-3.jpg');
+}
